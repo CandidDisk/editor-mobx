@@ -1,6 +1,6 @@
 {
   "homepage": "http://MarkTajima101.github.io/editor-mobx",
-  "name": "editor-mobx-eg",
+  "name": "editor-mobx",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

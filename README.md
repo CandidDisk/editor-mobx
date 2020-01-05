@@ -1,6 +1,6 @@
-# What is editor-mobx-eg?
+# What is editor-mobx?
 
-[**Demo**](https://marktajima101.github.io/editor-mobx-eg/) 
+[**Demo**](https://marktajima101.github.io/editor-mobx/) 
 
 This ReactJS project demonstrates a simple element editor built with [mobx](https://mobx.js.org/README.html). It's function is to showcase
 * Reactive rendering of elements & states 
@@ -11,7 +11,7 @@ This ReactJS project demonstrates a simple element editor built with [mobx](http
 
 ![](demo.gif)
 
-#### Live show case (https://marktajima101.github.io/editor-mobx-eg/)
+#### Live show case (https://marktajima101.github.io/editor-mobx/)
 ##### *Currently requires MobX-DevTools, so live demo does not allow for change page yet. Please install locally.*
 
 ## Prerequisites

@@ -38,6 +38,10 @@ class LeftCard extends Component {
 
                     <p className='title1' style={{color:store.localTextColour}}>{store.localSubTitle}</p>
 
+                    <p className='title1'>{store.pageListTest[0].title}</p>
+
+                    <p className='title1'>{store.testKeyArr.subTitle}</p>
+
                 </div>
             </div>
 
@@ -140,6 +144,7 @@ class RightCard extends Component {
     }
 
     onChangePage = (e) => {
+        this.props.store.changePage(this.props.store.localKey);
     }
 
     onNewPage = (e) => {

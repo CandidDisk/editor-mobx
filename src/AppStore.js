@@ -11,9 +11,12 @@ class Store {
 
     //Test List
     @observable pageListTest = [
-        {id: 0, title: "Title", subTitle: "subTitle"},
-        {id: 1, title: "Title2", subTitle: "subTitle2"}
+        {key: 0, title: "Title", subTitle: "subTitle"},
+        {key: 1, title: "Title2", subTitle: "subTitle2"},
+        {key: 2, title: "Title3", subTitle: "subTitle3", backColour:"#cccccc", textColour:"#ffffff"}
     ];
+
+    @observable testKeyArr = this.pageListTest.find(pageListTest => pageListTest.key === 0)
 
     //Initialization of page list
     @observable pageList = [];
@@ -38,11 +41,23 @@ class Store {
     @observable localBackColour = '';
 
 
+
     //Page change
     @observable localKey = '';
 
-    @action changePage(key) {
+    @observable localKeyArr = '';
 
+    @action changePage(keyIn) {
+
+        this.localKeyArr = this.pageList.find(pageList => pageList.key === keyIn)
+
+        this.localTitle = this.localKeyArr.title;
+
+        this.localSubTitle = this.localKeyArr.subTitle;
+
+        this.localTextColour = this.localKeyArr.textColour;
+
+        this.localBackColour = this.localKeyArr.backColour
     }
 }
 

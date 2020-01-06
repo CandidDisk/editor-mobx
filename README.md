@@ -9,7 +9,7 @@ This ReactJS project demonstrates a simple element editor built with [mobx](http
 * Live rendering of text & colour change pre-submittion (*See local render data in AppStore.js*)
 * Filtering keyed items for "re-rendering" of element state (title, sub title, text & background colour, etc)
 
-![](demo.gif)
+![](demo2.gif)
 
 #### Live show case (https://marktajima101.github.io/editor-mobx/)
 ##### *Currently requires MobX-DevTools, so live demo does not allow for change page yet. Please install locally.*

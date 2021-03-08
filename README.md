@@ -11,7 +11,7 @@ This ReactJS project demonstrates a simple element editor built with [mobx](http
 
 ![](demo2.gif)
 
-#### Live show case (https://marktajima101.github.io/editor-mobx/)
+#### Live show case (https://candiddisk.github.io/editor-mobx/)
 ##### *Currently requires MobX-DevTools, so live demo does not allow for change page yet. Please install locally.*
 
 ## Prerequisites
